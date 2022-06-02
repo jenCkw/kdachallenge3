@@ -21,4 +21,49 @@
     --Dark-grayish-blue: hsl(232, 10%, 55%);
     --Grayish-blue: hsl(210, 4%, 67%);
     --White: hsl(0, 0%, 100%);
+    -Soft-red: hsl(7, 99%, 70%);
+    -Yellow: hsl(51, 100%, 49%);
+    -Dark-desaturated-cyan-graphic-design-text: hsl(167, 40%, 24%);
+    -Dark-blue-photography-text: hsl(198, 62%, 26%);
+    -Dark-moderate-cyan-footer: hsl(168, 34%, 41%);
+}
+
+
+
+body{
+    font-family: Barlow;
+}
+.nav{
+    background:url('images/desktop/image-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    text-align: center;
+}
+
+.grid{
+    /* display: grid;
+    justify-items: center; */
+    text-align: center;
+    height: 400px;
+}
+
+.grid1{
+    height: 400px;
+}
+
+.grid2 {
+    /* justify-content: center, */
+    margin: 20px;
+    line-height: 1.5;
+    white-space: 1.5;
 }
